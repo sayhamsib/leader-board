@@ -131,3 +131,13 @@ hr{
     border-radius: 15px;
     color: #FF4A60    ;
 }
+/* media queries  */
+
+
+/* mobile device */
+@media only screen and(max-width:688px) {
+    .player{
+        background-color:tomato;
+        grid-template-columns: repeat(1,1fr)
+      }
+    }
