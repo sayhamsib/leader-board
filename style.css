@@ -135,9 +135,21 @@ hr{
 
 
 /* mobile device */
-@media only screen and(max-width:688px) {
-    .player{
-        background-color:tomato;
-        grid-template-columns: repeat(1,1fr)
-      }
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
     }
+    .players, .blogs{
+        
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .player, .blog{
+        flex-direction: column;
+    }
+    .courses{
+        display: none;
+    }
+
+    
+}
